@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProgressBar from "./ProgressBar";
 
+//form.js
 const Form = () => {
   const [file, setFile] = useState(null);
   const [error, setError] = useState(null);
